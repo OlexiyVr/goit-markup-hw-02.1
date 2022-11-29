@@ -1,0 +1,61 @@
+body{
+        font-family: 'Roboto', sans-serif;
+        background: #FFFFFF;
+}
+
+.headerlist{
+list-style: none;
+}
+
+.link{
+    font-family:inherit;
+}
+
+.header-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2E2F42;    
+    text-decoration:'none';
+}
+
+.adressa{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    list-style: none;
+}
+
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 51px;
+    left: 635px;
+    top: 432px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.buttontxt{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.1;
+        display: flex;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        flex: none;
+            order: 0;
+            flex-grow: 0;
+}
