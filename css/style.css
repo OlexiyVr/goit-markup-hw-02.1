@@ -42,7 +42,7 @@ a:hover {
 
 .contacts {
   text-decoration: none;
-  font-family: "inherit, sans-serif";
+  font-family: inherit, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,14 +65,8 @@ a:hover {
 }
 
 .header-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit, sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.1;
@@ -80,19 +74,12 @@ a:hover {
   letter-spacing: 0.04em;
   color: #ffffff;
   flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.buttontxt {
 }
 
 /* ABOUT SECTION */
-.about {
-}
+.about {}
 
-.about-title-top {
-}
+.about-title-top {}
 
 .about-list {
   list-style: none;
