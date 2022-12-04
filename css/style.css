@@ -1,10 +1,19 @@
 body {
-  font-family: "Roboto", sans-serif;
-  background: gray;
+  font-family: "Roboto";
+
+  background-color: #ffffff;
 }
 
-a:hover {
+.header {
+  background-color: #ffffff;
+}
+
+.header-link:hover {
   color: #4d5ae5;
+}
+
+a {
+  text-decoration: none;
 }
 
 .headerlist {
@@ -12,15 +21,14 @@ a:hover {
 }
 
 .link {
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   text-decoration: none;
   list-style: none;
 }
 
 .logo-link {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
   text-decoration: none;
@@ -32,7 +40,7 @@ a:hover {
 }
 
 .header-link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -40,11 +48,15 @@ a:hover {
   text-decoration: none;
 }
 
+.contacts:hover {
+  color: #4d5ae5;
+}
+
 .contacts {
   text-decoration: none;
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -53,10 +65,11 @@ a:hover {
 /* HERO SECTION */
 
 .hero {
+  background-color: rgba(46, 47, 66, 1);
 }
 
 .hero-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -66,28 +79,37 @@ a:hover {
 
 .header-btn {
   background: #4d5ae5;
-  font-family: inherit, sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.1;
-  display: flex;
   letter-spacing: 0.04em;
   color: #ffffff;
-  flex: none;
+  cursor: pointer;
 }
 
 /* ABOUT SECTION */
-.about {}
+.about {
+}
 
-.about-title-top {}
+.about-title-top {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 
 .about-list {
   list-style: none;
 }
 
 .about-title {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -95,8 +117,7 @@ a:hover {
 }
 
 .about-text {
-  font-style: normal;
-  font-weight: 400;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -109,9 +130,8 @@ a:hover {
 }
 
 .service-title {
-  font-family: inherit, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -126,12 +146,12 @@ a:hover {
 /* TEAM SECTION */
 
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title-top {
-  font-family: inherit, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
@@ -141,18 +161,18 @@ a:hover {
   list-style: none;
 }
 
+.team-photo {
+  background-color: #ffffff;
+}
+
 .team-title {
-  font-family: inherit, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
 
 .team-txt {
-  font-family: inherit, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -162,21 +182,21 @@ a:hover {
 /* FOOTER */
 
 .footer {
+  background-color: #2e2f42;
 }
 
 .logo-link-footer {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 7800;
   font-size: 18px;
   line-height: 1.33;
   text-decoration: none;
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .footer-txt {
-  font-family: inherit, sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -185,6 +205,13 @@ a:hover {
 
 /* Portfolio  Page*/
 /* Section Button Filtres */
+.portfolio-title-top {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #4d5ae5;
+}
+
 .filter-btn-list {
   list-style: none;
 }
@@ -192,17 +219,11 @@ a:hover {
 .filter-button {
   color: #4d5ae5;
   background: #e7e9fc;
-  font-family: inherit, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-}
-
-button {
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
 }
 
 .filter-button:hover {
@@ -238,9 +259,9 @@ ul {
 }
 
 .row-title {
-  font-family: inherit, sans-serif;
+  font-family: inherit;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -248,8 +269,7 @@ ul {
 }
 
 .row-txt {
-  font-family: inherit, sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -258,23 +278,10 @@ ul {
 }
 
 .row-page-txt {
-  font-family: inherit, sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.row-b {
-}
-
-.row-imgb {
-}
-
-.row-c {
-}
-
-.row-imgc {
 }
