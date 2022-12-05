@@ -87,6 +87,8 @@ a {
 }
 
 .header-btn {
+  font-family: inherit;
+  font-weight: 500;
   background: var(--brand-primary-color);
   font-size: 16px;
   line-height: 1.1;
@@ -219,9 +221,10 @@ a {
 }
 
 .filter-button {
+  font-family: inherit;
+  font-weight: 500;
   color: var(--brand-primary-color);
   background: #e7e9fc;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
